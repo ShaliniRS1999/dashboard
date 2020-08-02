@@ -1,0 +1,132 @@
+body {
+     background:rgba(250, 212, 250, 0.568); 
+    
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+      position: static;
+      height:auto !important;
+    }
+  .sidelink {
+      margin-bottom:0px;
+  }
+    .topbar {
+        margin-top:5px;
+      position: static;
+    }
+  }
+
+ 
+ 
+.sidebar {
+   
+    background:linear-gradient(rgba(50, 2, 90, 0.911),rgba(154, 17, 196, 0.671)),url(../img/img2.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+    box-shadow:5px 5px 10px rgba(149, 25, 165, 0.637);
+}
+.nav-link i {
+    font-size: 30px;
+    padding-right:20px;
+}
+
+.active {
+    background-color:rgb(20, 220, 187);
+    border-radius: 10px;
+    transition: all .3s;
+}
+.active:hover {
+    background-color:rgb(12, 180, 192);
+    border-radius: 10px;
+    transform: translateY(-1px);
+}
+.sidelink:hover {
+    background-color:rgba(141, 141, 141, 0.541);
+    border-radius:10px;
+    transition: all .4s;
+}
+.input {
+    background: transparent;
+    border: none;
+    border-bottom:1.5px solid white;
+    border-radius: 0;;
+    transition: all .4s;
+}
+.input:focus {
+    background: transparent;
+    box-shadow: none;
+    border-bottom:1.5px solid grey;
+}
+.searchbtn:focus {
+   
+    background-color:aliceblue;
+    border-radius: 20px;
+}
+
+.parent {
+    position: relative;
+}
+.dot::after {
+    content: "";
+    position: absolute;
+    top: 7px;
+    left: 25px;
+    height: 12px;
+    width: 12px;
+    background-color: #f44336;
+    border-radius: 50%;
+
+}
+
+.box {
+    box-shadow:5px 5px 5px  rgb(90, 93, 95);
+    transition: all .3s;
+}
+
+.box:hover {
+    box-shadow:5px 5px 20px rgb(90, 93, 95);
+    transform: translateY(-3px);
+    }
+
+ .page-item.active.page-link {
+    background-color:blueviolet !important;
+ }  
+
+ .bg-color {
+     background:linear-gradient(rgba(200, 41, 206, 0.911),rgba(253, 165, 0, 0.897));
+
+ }
+ 
+ .chart {
+     box-shadow:5px 5px 10px rebeccapurple;
+ }
+
+ .status {
+    font-size: 10px;
+    margin-right: 10px;
+    
+     }
+ .task-left {
+     border-left: 4px solid rebeccapurple;
+     margin-bottom: 20px;
+ }
+ .fa-edit {
+     font-size:20px;
+     margin-top: 15px;
+ }
+ .fa-trash {
+     font-size:20px;
+     margin-top: 13px;
+ }
+ .btn-card {
+     border:none;
+ }
+ .bg1-color {
+    background-color:rgb(102, 43, 117);
+}
+ .footer {
+     background-color: rgb(197, 197, 197);
+ }
